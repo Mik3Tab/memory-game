@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+#title img {
+  width: 400px;
+  height: auto;
+}
+
+#title1 {
+  margin-right: -35px;
+}
+
+footer {
+  background-color: transparent;
+  color: aquamarine;
+  font-size: 1em;
+  bottom: 0;
+}
+
+@media screen and (max-width: 450px) {
+
+  #title img {
+      width: 340px;
+      margin-bottom: -20px;
+  }
+
+  #title {
+      width: 360px;
+      height: auto;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+
+  #title1 {
+      margin-right: 0px;
+  }
+
+  #title2 {
+      margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 950px) and (orientation: landscape) {
+  #title img{
+      width: 300px;
+  }
+
+  #title{
+      margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+ #title{
+     margin-bottom: -20px;
+ }
+
+}
+
+@font-face {
+  font-family: 'DotGothic16', sans-serif;
+    src: url('/assets/font/PinkChicken-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
